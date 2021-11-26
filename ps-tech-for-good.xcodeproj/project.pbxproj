@@ -13,6 +13,7 @@
 		814954E1274FDB3C00A2D141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814954DF274FDB3C00A2D141 /* Main.storyboard */; };
 		814954E3274FDB3D00A2D141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814954E2274FDB3D00A2D141 /* Assets.xcassets */; };
 		814954E6274FDB3D00A2D141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814954E4274FDB3D00A2D141 /* LaunchScreen.storyboard */; };
+		ACF8696D27506BA300827DCE /* ExplicaODS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		814954E2274FDB3D00A2D141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814954E5274FDB3D00A2D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814954E7274FDB3D00A2D141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicaODS.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				814954E2274FDB3D00A2D141 /* Assets.xcassets */,
 				814954E4274FDB3D00A2D141 /* LaunchScreen.storyboard */,
 				814954E7274FDB3D00A2D141 /* Info.plist */,
+				ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */,
 			);
 			path = "ps-tech-for-good";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF8696D27506BA300827DCE /* ExplicaODS.storyboard in Resources */,
 				814954E6274FDB3D00A2D141 /* LaunchScreen.storyboard in Resources */,
 				814954E3274FDB3D00A2D141 /* Assets.xcassets in Resources */,
 				814954E1274FDB3C00A2D141 /* Main.storyboard in Resources */,
