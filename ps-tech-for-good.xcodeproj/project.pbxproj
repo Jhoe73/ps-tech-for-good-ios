@@ -14,6 +14,7 @@
 		814954E3274FDB3D00A2D141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814954E2274FDB3D00A2D141 /* Assets.xcassets */; };
 		814954E6274FDB3D00A2D141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814954E4274FDB3D00A2D141 /* LaunchScreen.storyboard */; };
 		ACF8696D27506BA300827DCE /* ExplicaODS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */; };
+		ACF8696F275077D700827DCE /* Integrantes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8696E275077D700827DCE /* Integrantes.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		814954E5274FDB3D00A2D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814954E7274FDB3D00A2D141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicaODS.storyboard; sourceTree = "<group>"; };
+		ACF8696E275077D700827DCE /* Integrantes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Integrantes.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				814954E4274FDB3D00A2D141 /* LaunchScreen.storyboard */,
 				814954E7274FDB3D00A2D141 /* Info.plist */,
 				ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */,
+				ACF8696E275077D700827DCE /* Integrantes.storyboard */,
 			);
 			path = "ps-tech-for-good";
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF8696D27506BA300827DCE /* ExplicaODS.storyboard in Resources */,
+				ACF8696F275077D700827DCE /* Integrantes.storyboard in Resources */,
 				814954E6274FDB3D00A2D141 /* LaunchScreen.storyboard in Resources */,
 				814954E3274FDB3D00A2D141 /* Assets.xcassets in Resources */,
 				814954E1274FDB3C00A2D141 /* Main.storyboard in Resources */,
