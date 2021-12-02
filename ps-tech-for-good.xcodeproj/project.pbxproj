@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		814954DA274FDB3C00A2D141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814954D9274FDB3C00A2D141 /* AppDelegate.swift */; };
 		814954DC274FDB3C00A2D141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814954DB274FDB3C00A2D141 /* SceneDelegate.swift */; };
-		814954DE274FDB3C00A2D141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814954DD274FDB3C00A2D141 /* ViewController.swift */; };
 		814954E1274FDB3C00A2D141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814954DF274FDB3C00A2D141 /* Main.storyboard */; };
 		814954E3274FDB3D00A2D141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814954E2274FDB3D00A2D141 /* Assets.xcassets */; };
 		814954E6274FDB3D00A2D141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814954E4274FDB3D00A2D141 /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 		814954D6274FDB3C00A2D141 /* ps-tech-for-good.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ps-tech-for-good.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814954D9274FDB3C00A2D141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814954DB274FDB3C00A2D141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		814954DD274FDB3C00A2D141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		814954E0274FDB3C00A2D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814954E2274FDB3D00A2D141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814954E5274FDB3D00A2D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				814954D9274FDB3C00A2D141 /* AppDelegate.swift */,
 				814954DB274FDB3C00A2D141 /* SceneDelegate.swift */,
-				814954DD274FDB3C00A2D141 /* ViewController.swift */,
 				814954DF274FDB3C00A2D141 /* Main.storyboard */,
 				AC97914A27593D9200366A9D /* MapViewController.swift */,
 				AC97914827593C1A00366A9D /* ContatosViewController.swift */,
@@ -170,7 +167,6 @@
 				AC97914927593C1A00366A9D /* ContatosViewController.swift in Sources */,
 				AC97914E275950E600366A9D /* ps-tech-for-good.xcdatamodeld in Sources */,
 				AC97914B27593D9200366A9D /* MapViewController.swift in Sources */,
-				814954DE274FDB3C00A2D141 /* ViewController.swift in Sources */,
 				814954DA274FDB3C00A2D141 /* AppDelegate.swift in Sources */,
 				AC97914727593BCC00366A9D /* ContatosTableViewController.swift in Sources */,
 				814954DC274FDB3C00A2D141 /* SceneDelegate.swift in Sources */,

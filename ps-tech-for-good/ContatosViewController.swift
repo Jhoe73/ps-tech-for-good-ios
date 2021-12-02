@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ContatosViewController: UIViewController {
 
@@ -14,8 +15,6 @@ class ContatosViewController: UIViewController {
     @IBOutlet weak var txtTelefone: UITextField!
     @IBOutlet weak var txtEndereco: UITextField!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,6 +22,34 @@ class ContatosViewController: UIViewController {
     }
     
     @IBAction func salvar(_ sender: Any) {
+        txtNome.resignFirstResponder()
+        txtTelefone.resignFirstResponder()
+        txtEmail.resignFirstResponder()
+        txtEndereco.resignFirstResponder()
+        
+        self.save(email: txtEmail.text!, endereco: txtEndereco.text!, nome: txtNome.text!, telefone: txtTelefone.text!)
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    func save(email:String, endereco:String, nome:String, telefone:String){
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let entidade = NSEntityDescription.entity(forEntityName: "Pessoa", in: managedContext)!
+            
+        let pessoa = NSManagedObject(entity: entidade, insertInto: managedContext)
+            
+        pessoa.setValue(email, forKeyPath: "email")
+        pessoa.setValue(endereco, forKeyPath: "endereco")
+        pessoa.setValue(nome, forKeyPath: "nome")
+        pessoa.setValue(telefone, forKeyPath: "telefone")
+            
+        do {
+            try managedContext.save()
+        } catch let error as NSError{
+            print("Não foi possível salvar. \(error), \(error.userInfo)")
+        }
     }
     
     /*
