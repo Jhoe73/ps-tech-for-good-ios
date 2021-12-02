@@ -18,12 +18,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="tea-g8-SwM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdenifier" textLabel="8hO-4s-mNp" detailTextLabel="I4T-3k-lwB" style="IBUITableViewCellStyleSubtitle" id="tea-g8-SwM">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tea-g8-SwM" id="4E0-SX-PNo">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8hO-4s-mNp">
+                                            <rect key="frame" x="20" y="6" width="25" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I4T-3k-lwB">
+                                            <rect key="frame" x="20" y="22.5" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -116,17 +132,27 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Cadastrar Contato" id="LPC-y8-aqO">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="u4d-JA-RSL"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="u4d-JA-RSL">
+                            <connections>
+                                <action selector="salvar:" destination="Nwg-Tg-DLK" id="n3a-Ig-qH1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="txtEmail" destination="CIN-lJ-Dho" id="knf-Ta-UuC"/>
+                        <outlet property="txtEndereco" destination="eqi-XA-4rU" id="5fo-xU-ebb"/>
+                        <outlet property="txtNome" destination="IuG-O0-TFq" id="QsB-Rz-g9o"/>
+                        <outlet property="txtTelefone" destination="6OK-md-EUC" id="SNt-nQ-NUO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9v-rY-7bE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46" y="63"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ps_tech_for_good" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="ps_tech_for_good" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +166,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="bGy-Jf-9XV" id="ZKb-2W-M8C"/>
+                        <outlet property="mapVIew" destination="bGy-Jf-9XV" id="UWu-qH-MNO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

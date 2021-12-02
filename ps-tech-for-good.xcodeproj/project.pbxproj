@@ -18,6 +18,7 @@
 		AC97914727593BCC00366A9D /* ContatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97914627593BCC00366A9D /* ContatosTableViewController.swift */; };
 		AC97914927593C1A00366A9D /* ContatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97914827593C1A00366A9D /* ContatosViewController.swift */; };
 		AC97914B27593D9200366A9D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97914A27593D9200366A9D /* MapViewController.swift */; };
+		AC97914E275950E600366A9D /* ps-tech-for-good.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC97914C275950E600366A9D /* ps-tech-for-good.xcdatamodeld */; };
 		ACF8696D27506BA300827DCE /* ExplicaODS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */; };
 		ACF8696F275077D700827DCE /* Integrantes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8696E275077D700827DCE /* Integrantes.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		AC97914627593BCC00366A9D /* ContatosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosTableViewController.swift; sourceTree = "<group>"; };
 		AC97914827593C1A00366A9D /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
 		AC97914A27593D9200366A9D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AC97914D275950E600366A9D /* ps-tech-for-good.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ps-tech-for-good.xcdatamodel"; sourceTree = "<group>"; };
 		ACF8696C27506BA300827DCE /* ExplicaODS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicaODS.storyboard; sourceTree = "<group>"; };
 		ACF8696E275077D700827DCE /* Integrantes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Integrantes.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 				AC9791432758075200366A9D /* JustificaODS.storyboard */,
 				AC97914427580C8600366A9D /* MapaODS.storyboard */,
 				ACF8696E275077D700827DCE /* Integrantes.storyboard */,
+				AC97914C275950E600366A9D /* ps-tech-for-good.xcdatamodeld */,
 			);
 			path = "ps-tech-for-good";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC97914927593C1A00366A9D /* ContatosViewController.swift in Sources */,
+				AC97914E275950E600366A9D /* ps-tech-for-good.xcdatamodeld in Sources */,
 				AC97914B27593D9200366A9D /* MapViewController.swift in Sources */,
 				814954DE274FDB3C00A2D141 /* ViewController.swift in Sources */,
 				814954DA274FDB3C00A2D141 /* AppDelegate.swift in Sources */,
@@ -369,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC97914C275950E600366A9D /* ps-tech-for-good.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC97914D275950E600366A9D /* ps-tech-for-good.xcdatamodel */,
+			);
+			currentVersion = AC97914D275950E600366A9D /* ps-tech-for-good.xcdatamodel */;
+			path = "ps-tech-for-good.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 814954CE274FDB3C00A2D141 /* Project object */;
 }
