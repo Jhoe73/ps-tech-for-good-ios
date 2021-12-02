@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdenifier" textLabel="8hO-4s-mNp" detailTextLabel="I4T-3k-lwB" style="IBUITableViewCellStyleSubtitle" id="tea-g8-SwM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" textLabel="8hO-4s-mNp" detailTextLabel="I4T-3k-lwB" style="IBUITableViewCellStyleSubtitle" id="tea-g8-SwM">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tea-g8-SwM" id="4E0-SX-PNo">
@@ -143,9 +143,11 @@ para no máximo 30 mortes por
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51d-Ku-qHe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51d-Ku-qHe">
                                 <rect key="frame" x="34" y="469" width="346" height="123"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="346" id="Bgo-o7-5my"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="123" id="Wlk-Pu-KDn"/>
                                     <constraint firstAttribute="height" constant="123" id="iZe-4j-1A7"/>
                                 </constraints>
                                 <string key="text">Todas as ODS são extremamente importantes, porém devido a necessidade de escolha de uma delas, optamos pela que mais permeia a realizade da equipe.</string>
@@ -200,10 +202,15 @@ para no máximo 30 mortes por
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="square.stack.3d.forward.dottedline.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oBY-4F-V8Z">
+                                <rect key="frame" x="156" y="118.5" width="102" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7W-dM-R4I">
                                 <rect key="frame" x="20" y="254" width="374" height="199"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="199" id="m1Q-t4-LuN"/>
+                                    <constraint firstAttribute="height" constant="199" id="Hhk-oB-bT3"/>
+                                    <constraint firstAttribute="width" constant="374" id="UEo-y7-Ff3"/>
                                 </constraints>
                                 <string key="text">Vinicius Lima Matos Felix - RM 81247
 Gabriel Gomes De Queiroz - RM 80571
@@ -214,37 +221,20 @@ Jhoe Nascimento Sá - RM 81525</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GRUPO 2GROWTH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXt-hS-EDs">
-                                <rect key="frame" x="134" y="229" width="146" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="6rw-1D-IEY"/>
-                                    <constraint firstAttribute="width" constant="146" id="Q2z-r4-uoc"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GRUPO 2GROWTH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXt-hS-EDs">
+                                <rect key="frame" x="134" y="224" width="146" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="square.stack.3d.forward.dottedline.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oBY-4F-V8Z">
-                                <rect key="frame" x="156" y="128.5" width="102" height="117"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="118" id="Y6P-sy-1qP"/>
-                                    <constraint firstAttribute="width" constant="102" id="uAD-WD-uPq"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t0m-t5-T5h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="G7W-dM-R4I" firstAttribute="trailing" secondItem="DCR-ge-Pp3" secondAttribute="trailingMargin" id="1JC-tS-YYM"/>
-                            <constraint firstItem="KXt-hS-EDs" firstAttribute="centerX" secondItem="oBY-4F-V8Z" secondAttribute="centerX" id="L3B-bV-eXf"/>
-                            <constraint firstItem="oBY-4F-V8Z" firstAttribute="leading" secondItem="t0m-t5-T5h" secondAttribute="leading" constant="156" id="NeG-Se-K9Z"/>
-                            <constraint firstItem="t0m-t5-T5h" firstAttribute="bottom" secondItem="G7W-dM-R4I" secondAttribute="bottom" constant="409" id="ORa-qu-wP0"/>
-                            <constraint firstItem="G7W-dM-R4I" firstAttribute="leading" secondItem="DCR-ge-Pp3" secondAttribute="leadingMargin" id="Qpe-TU-6WE"/>
-                            <constraint firstItem="t0m-t5-T5h" firstAttribute="bottom" secondItem="KXt-hS-EDs" secondAttribute="bottom" constant="598" id="Vkl-iP-Gya"/>
-                            <constraint firstItem="oBY-4F-V8Z" firstAttribute="top" secondItem="t0m-t5-T5h" secondAttribute="top" constant="40" id="fzs-UB-rd2"/>
-                            <constraint firstItem="oBY-4F-V8Z" firstAttribute="centerX" secondItem="G7W-dM-R4I" secondAttribute="centerX" id="hKe-ma-5qY"/>
-                            <constraint firstItem="KXt-hS-EDs" firstAttribute="top" secondItem="t0m-t5-T5h" secondAttribute="top" constant="141" id="n0m-Rb-aOr"/>
-                            <constraint firstItem="G7W-dM-R4I" firstAttribute="top" secondItem="oBY-4F-V8Z" secondAttribute="bottom" constant="8" symbolic="YES" id="sIS-Y0-fFh"/>
+                            <constraint firstItem="t0m-t5-T5h" firstAttribute="trailing" secondItem="G7W-dM-R4I" secondAttribute="trailing" constant="20" id="B0F-Em-YRp"/>
+                            <constraint firstItem="G7W-dM-R4I" firstAttribute="top" secondItem="t0m-t5-T5h" secondAttribute="top" constant="166" id="jhB-VX-LAV"/>
+                            <constraint firstItem="G7W-dM-R4I" firstAttribute="leading" secondItem="t0m-t5-T5h" secondAttribute="leading" constant="20" id="s43-D1-KKe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Integrantes" id="lhQ-oS-PCS"/>
