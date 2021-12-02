@@ -1,12 +1,15 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
+//  ps-tech-for-good
+//
+//  Created by Usuário Convidado on 02/12/21.
 //
 
 import UIKit
 import MapKit
 
-class ViewController: UIViewController, MKMapViewDelegate {
-
+class MapViewController: UIViewController {
+    
     @IBOutlet var mapView: MKMapView!
     
     override func viewDidLoad() {
@@ -27,6 +30,5 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Instituto Butantã Latitude: -23,5684
         // Instituto Butantã Longitude: -46,7172
     }
+
 }
-
-
